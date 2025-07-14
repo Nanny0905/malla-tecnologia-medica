@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Tecnología Médica de Laboratorio Clínico - UCV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Interactiva de Tecnología Médica – Laboratorio Clínico (UCV)</h1>
+
+  <div class="malla">
+    <div class="ciclo" onclick="mostrarMaterias(1)">🔬 Ciclo 1</div>
+    <div class="materias" id="ciclo1">
+      <ul>
+        <li>Pensamiento Lógico</li>
+        <li>Habilidades Comunicativas</li>
+        <li>Objetivos de Desarrollo Sostenible</li>
+        <li>Fundamentos de Lab. Clínico</li>
+        <li>Inglés I</li>
+      </ul>
+    </div>
+
+    <div class="ciclo" onclick="mostrarMaterias(2)">🧪 Ciclo 2</div>
+    <div class="materias" id="ciclo2">
+      <ul>
+        <li>Cambio Climático y Gestión de Riesgos</li>
+        <li>Cátedra Vallejo</li>
+        <li>Salud Pública</li>
+        <li>Química Orgánica y Inorgánica</li>
+        <li>Inglés II</li>
+      </ul>
+    </div>
+
+    <div class="ciclo" onclick="mostrarMaterias(3)">🧪 Ciclo 3</div>
+    <div class="materias" id="ciclo3">
+      <ul>
+        <li>Creatividad e Innovación</li>
+        <li>Filosofía y Ética</li>
+        <li>Biología Celular</li>
+        <li>Estadística y Análisis de Datos</li>
+        <li>Inglés III</li>
+      </ul>
+    </div>
+
+    <div class="ciclo" onclick="mostrarMaterias(4)">🧪 Ciclo 4</div>
+    <div class="materias" id="ciclo4">
+      <ul>
+        <li>Metodología de la Investigación Científica</li>
+        <li>Morfofisiología</li>
+        <li>Bioquímica y Biología Molecular</li>
+        <li>Histología y Embriología</li>
+        <li>Inglés IV</li>
+      </ul>
+    </div>
+
+    <div class="ciclo" onclick="mostrarMaterias(5)">🧪 Ciclo 5</div>
+    <div class="materias" id="ciclo5">
+      <ul>
+        <li>Constitución y Derechos Humanos</li>
+        <li>Hematología y Hemostasia</li>
+        <li>Bioquímica Clínica</li>
+        <li>Epidemiología</li>
+        <li>Inglés V</li>
+      </ul>
+    </div>
+
+    <div class="ciclo" onclick="mostrarMaterias(6)">🧪 Ciclo 6</div>
+    <div class="materias" id="ciclo6">
+      <ul>
+        <li>Citogenética Humana</li>
+        <li>Inmunología</li>
+        <li>Bacteriología y Virología</li>
+        <li>Experiencia Curricular Electiva</li>
+        <li>Inglés VI</li>
+      </ul>
+    </div>
+
+    <div class="ciclo" onclick="mostrarMaterias(7)">🧪 Ciclo 7</div>
+    <div class="materias" id="ciclo7">
+      <ul>
+        <li>Micología y Parasitología</li>
+        <li>Gestión de Calidad en Laboratorio Clínico</li>
+        <li>Técnicas en Anatomía Patológica</li>
+        <li>Farmacología y Toxicología</li>
+        <li>Inglés VII</li>
+      </ul>
+    </div>
+
+    <div class="ciclo" onclick="mostrarMaterias(8)">🧪 Ciclo 8</div>
+    <div class="materias" id="ciclo8">
+      <ul>
+        <li>Hematología Clínica y Medicina Transfusional</li>
+        <li>Citopatología</li>
+        <li>Gestión de Proyectos</li>
+        <li>Experiencia Curricular Electiva</li>
+        <li>Inglés VIII</li>
+      </ul>
+    </div>
+
+    <div class="ciclo" onclick="mostrarMaterias(9)">🧪 Ciclo 9</div>
+    <div class="materias" id="ciclo9">
+      <ul>
+        <li>Trabajo de Investigación I</li>
+        <li>Internado I</li>
+        <li>Inglés IX</li>
+      </ul>
+    </div>
+
+    <div class="ciclo" onclick="mostrarMaterias(10)">🧪 Ciclo 10</div>
+    <div class="materias" id="ciclo10">
+      <ul>
+        <li>Trabajo de Investigación II</li>
+        <li>Internado II</li>
+        <li>Inglés X</li>
+      </ul>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
